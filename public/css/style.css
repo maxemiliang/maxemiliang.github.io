@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Abel);
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 
 div.content {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abel', sans-serif;
     background-color: #B3E5FC;
 }
 
@@ -12,6 +12,7 @@ h1 {
 
 div.container {
     padding: 20px;
+    word-wrap: break-word;
 }
 
 nav.header {
