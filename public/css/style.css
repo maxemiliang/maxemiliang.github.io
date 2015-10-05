@@ -24,7 +24,6 @@ nav.header {
     font-family: 'Lato', sans-serif;
     font-size: 25px;
     height: 28px;
-    box-shadow: 1px 1px 10px #888888;
     color: #727272;
 }
 
@@ -40,8 +39,8 @@ nav a:link {
     padding-right: 5px;
     color: #FFFFFF;
     background-color: #03A9F4;
-    -webkit-transition: background-color 2s; /* For Safari 3.0 to 6.0 */
-    transition: background-color 2s; /* For modern browsers */
+    -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
+    transition: background-color 1s; /* For modern browsers */
 }
 
 nav a:hover {
