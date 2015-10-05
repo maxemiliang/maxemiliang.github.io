@@ -1,14 +1,22 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title>Maxemiliang's blog/projectpage</title>
+    <meta charset="UTF-8">
+    <script defer src="public/js/script.js"></script>
+    <link rel="stylesheet" href="public/css/style.css">
 </head>
-
 <body>
-	<h1>Hello and welcome to my website!</h1>
-	<li>
-		<a href="games/treasure/treasure.html">Test out my first game!</a>
-	</li>
-</body>
+<div class="content">
 
+<nav class="header">
+    <a href="#" class="active">Home</a> |
+    <a href="games/treasure/treasure.html">Games</a>
+</nav>
+<div class="container">
+    <h1 id="h1">Hello</h1> <br>
+    <input name="name" type="text" maxlength="100" id="name" onchange="updateHeader()"/>
+</div>
+</div>
+</body>
 </html>
