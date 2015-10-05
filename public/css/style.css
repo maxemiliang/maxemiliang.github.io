@@ -35,13 +35,17 @@ nav a:visited {
 nav a:link {
     text-decoration: none;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
     color: #FFFFFF;
     background-color: #03A9F4;
+    box-shadow: 1px 1px 10px #888888;
     -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
     transition: background-color 1s; /* For modern browsers */
+    -moz-animation: background-color 1s;
+    /* padding */
+
 }
 
 nav a:hover {
@@ -52,16 +56,14 @@ nav a:hover {
     padding-right: 5px;
     color: #FFFFFF;
     box-shadow: 1px 1px 10px #888888;
-
 }
 
-a.active {
+nav a.active {
     background-color: #0288D1;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 9px;
-    padding-right: 9px;
-    color: #212121;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     box-shadow: 1px 1px 10px #888888;
     overflow: visible;
 }
